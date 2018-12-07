@@ -1,8 +1,19 @@
-import React from 'react';
+import React, {Component} from 'react';
+import ListButtons from '../../component/listbuttons';
 
-class Home extends CompositionEvent{
-    render(props){
-        <h2>prueba</h2>
+class Home extends Component{
+    render(){
+        return(
+            <div>
+                <h2>prueba</h2>
+                {console.log(this.props)}
+                <div>
+                    {
+                        <ListButtons listbuttons={this.props.data.subItems}></ListButtons>
+                    }
+                </div>
+            </div>
+        )
     }
 }
 
