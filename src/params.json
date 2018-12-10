@@ -37,7 +37,15 @@
         {
             "id":"2",
             "name":"Requerimientos",
-            "class":""
+            "class":"",
+            "subItems": [
+                {
+                    "id":"1",
+                    "name":"Proyectos",
+                    "class":"",
+                    "url":"www.stackoverflow.com"
+                }
+            ]
         }
     ]
 }
