@@ -5,7 +5,9 @@ import ContainerWeb from '../../component/containerweb';
 class Home extends Component{
     state = {
         items: this.props.data.subItems,
-        url: ""
+        url: "",
+        itemsBack: this.props.subItems,
+        itemsHome: this.props.data.subItems
     }
     handleClick = (itemsButtons, url) => {
         if(itemsButtons!=undefined){
@@ -17,6 +19,7 @@ class Home extends Component{
                 url: url
             })
         }
+        console.log(url);
     }
 
     render(){
@@ -26,7 +29,12 @@ class Home extends Component{
                 {
                     
                     <div>
-                        <ListButtons key={this.props.id} listbuttons={this.state.items} handleClick={this.handleClick}></ListButtons>
+                        {
+                            this.state.items != undefined &&
+                            <ListButtons key={this.props.id} listbuttons={this.state.items} handleClick={this.handleClick}></ListButtons>
+                            
+                        }
+                        {console.log(this.state.items)}
                         {
                             this.state.url.length >0 &&
                             <ContainerWeb src={this.state.url}></ContainerWeb>
