@@ -4,6 +4,7 @@
         {
             "id":"1",
             "name":"HelpDesk",
+            "description":"Mesa de ayuda, solicitudes, soportes, reporte de novedades",
             "class":"",
             "subItems":[
             {
@@ -15,7 +16,7 @@
                     "id":"1",
                     "name":"Colombia",
                     "class":"",
-                    "url":"www.google.com"
+                    "url":"https://youtu.be/lvpwliLJXXg"
                 },
                 {
                     "id":"2",
@@ -37,6 +38,7 @@
         {
             "id":"2",
             "name":"Requerimientos",
+            "description":"Nuevos requerimientos, actualizaciones, mejoras",
             "class":"",
             "subItems": [
                 {
