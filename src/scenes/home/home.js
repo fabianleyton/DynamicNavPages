@@ -25,7 +25,7 @@ class Home extends Component{
     render(){
         return(
             <div>
-                <h2>Menu</h2>
+                <h2>{this.props.data.companyName}</h2>
                 {
                     
                     <div>

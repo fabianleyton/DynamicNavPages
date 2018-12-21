@@ -4,6 +4,7 @@
         {
             "id":"1",
             "name":"HelpDesk",
+            "description":"Mesa de ayuda, solicitudes, soportes, reporte de novedades",
             "class":"",
             "subItems":[
             {
@@ -15,13 +16,13 @@
                     "id":"1",
                     "name":"Colombia",
                     "class":"",
-                    "url":"www.google.com"
+                    "url":"https://www.webpagetest.org/"
                 },
                 {
                     "id":"2",
                     "name":"Panama",
                     "class":"",
-                    "url":"www.stackoverflow.com"
+                    "url":"https://www.webpagetest.org/"
                 }
                 ]
             },
@@ -29,7 +30,7 @@
                 "id":"2",
                 "name":"Sistemas",
                 "class":"",
-                "url":"www.stackoverflow.com"
+                "url":"https://www.webpagetest.org/"
             }
             ]
         }
@@ -37,39 +38,14 @@
         {
             "id":"2",
             "name":"Requerimientos",
+            "description":"Nuevos requerimientos, actualizaciones, mejoras",
             "class":"",
             "subItems": [
                 {
                     "id":"1",
                     "name":"Proyectos",
                     "class":"",
-                    "url":"https://app.smartsheet.com/b/form/362ff09f49034598995d0bd6e88a4fc8"
-                }
-            ]
-        }
-        ,
-        {
-            "id":"3",
-            "name":"Obras",
-            "class":"",
-            "subItems": [
-                {
-                    "id":"1",
-                    "name":"Colombia",
-                    "class":"",
-                    "url":"https://app.smartsheet.com/b/form/362ff09f49034598995d0bd6e88a4fc8"
-                },
-                {
-                    "id":"2",
-                    "name":"Panama",
-                    "class":"",
-                    "url":"https://app.smartsheet.com/b/form/362ff09f49034598995d0bd6e88a4fc8"
-                },
-                {
-                    "id":"3",
-                    "name":"Panama",
-                    "class":"",
-                    "url":"https://app.smartsheet.com/b/form/362ff09f49034598995d0bd6e88a4fc8"
+                    "url":"https://www.webpagetest.org/"
                 }
             ]
         }
