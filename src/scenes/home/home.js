@@ -30,14 +30,17 @@ class Home extends Component{
                     
                     <div>
                         {
+                            <div>
                             this.state.items != undefined &&
                             <ListButtons key={this.props.id} listbuttons={this.state.items} handleClick={this.handleClick}></ListButtons>
-                            
+                            </div>
                         }
                         {console.log(this.state.items)}
                         {
+                            <div>
                             this.state.url.length >0 &&
                             <ContainerWeb src={this.state.url}></ContainerWeb>
+                            </div>
                         }
                     </div>
                 }
