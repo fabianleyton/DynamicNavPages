@@ -26,8 +26,6 @@ class Home extends Component{
         return(
             <div>
                 <h2>{this.props.data.companyName}</h2>
-                {
-                    
                     <div>
                         {
                             <div>
@@ -43,7 +41,6 @@ class Home extends Component{
                             </div>
                         }
                     </div>
-                }
             </div>
         )
     }
