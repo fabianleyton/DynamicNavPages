@@ -37,6 +37,6 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-transition-group": "^2.5.1"
+    "react-transition-group": "^2.5.3"
   }
 }
