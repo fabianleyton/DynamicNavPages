@@ -28,15 +28,15 @@ class Home extends Component{
                 <h2>{this.props.data.companyName}</h2>
                     <div>
                         {
-                            <div>
                             this.state.items != undefined &&
+                            <div>
                             <ListButtons key={this.props.id} listbuttons={this.state.items} handleClick={this.handleClick}></ListButtons>
                             </div>
                         }
                         {console.log(this.state.items)}
                         {
-                            <div>
                             this.state.url.length >0 &&
+                            <div>
                             <ContainerWeb src={this.state.url}></ContainerWeb>
                             </div>
                         }
